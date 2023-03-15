@@ -51,3 +51,5 @@ function andx(a,b) {
 }
 
 document.getElementById('andx').innerHTML = andx(4,5);
+// 引用 http://caibaojian.com/javascript/9.html
+
