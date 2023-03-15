@@ -46,3 +46,8 @@ function mydemo(one,two) {
     return x;
 }
 
+function andx(a,b) {
+    return a*b;
+}
+
+document.getElementById('andx').innerHTML = andx(4,5);
