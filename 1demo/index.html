@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UFT-8" />
+    <title>1demo</title>
+    <meta name="keywords" content="demo,练习,测试" />
+    <meta name="description" content="1demo练习测试项目" />
+</head>
+
+<body>
+    <!--  -->
+    <h1>测试<sub>1</sub>&emsp;&lt;div&gt;<sup>2</sup></h1>
+
+    <!-- table 表格 -->
+    <table border="1" cellpadding="10" cellspacing="5">
+        <caption>测试表头</caption>
+        <thead align="center">
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>住址</th>
+                <th>手机</th>
+                <th>电话</th>
+            </tr>
+        </thead>
+        <tbody align="center">
+            <tr>
+                <td>贾刘宇</td>
+                <td>25</td>
+                <td>男</td>
+                <td>合肥市</td>
+                <td>18119623530</td>
+                <td>18119623530</td>
+            </tr>
+            <tr>
+                <td>贾刘宇</td>
+                <td>25</td>
+                <td>男</td>
+                <td>合肥市</td>
+                <td>18119623530</td>
+                <td>18119623530</td>
+            </tr>
+            <tr>
+                <td>贾刘宇</td>
+                <td>25</td>
+                <td>男</td>
+                <td>合肥市</td>
+                <td>18119623530</td>
+                <td rowspan="2">18119623530</td>
+            </tr>
+            <tr>
+                <td>贾刘宇</td>
+                <td>25</td>
+                <td>男</td>
+                <td>合肥市</td>
+                <td>18119623530</td>
+            </tr>
+            <tr>
+                <td>贾刘宇</td>
+                <td>25</td>
+                <td>男</td>
+                <td>合肥市</td>
+                <td>18119623530</td>
+                <td>18119623530</td>
+            </tr>
+            <tr>
+                <td>贾刘宇</td>
+                <td>25</td>
+                <td>男</td>
+                <td>合肥市</td>
+                <td colspan="2">18119623530</td>
+            </tr>
+        </tbody>
+        <tfoot align="center">
+            <tr>
+                <td colspan="6">测试表格结束</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <!-- iframe 内联框架 -->
+    <!-- <p>
+        <a href="http://www.jd.com" target="mainFrame">京东网</a>
+        <a href="http://www.taobao.com" target="mainFrame">淘宝网</a>
+        <a href="http://www.tmall.com" target="mainFrame">天猫网</a>
+    </p>
+
+    <iframe name="mainFrame" src="https://www.xzxs.top/" width="1000" height="1000" frameborder="1" scrolling="yes">
+
+    </iframe> -->
+
+    <!-- 表单 md5加密：消息摘要的算法第五个版本，不可逆加密算法（加密后不可解密，且不需要额外提供秘钥）-->
+    <form method="get" action="">
+
+        <p>
+            <label for="name1">用户名1:</label>
+            <input type="text" id="name1" name="username1" value="" />
+        </p>
+        <p>
+            用户名: <input type="text" id="name" name="username" value="" />
+        </p>
+        <p>
+            密码: <input type="password" name="password" id="password" value="" />
+        </p>
+        <p>
+            性别: <input type="text" value="男" disabled="disabled" name="xingbie" />
+        </p>
+        <p>
+            年龄: <input type="text" value="18" readonly="readonly" name="nianling" />
+        </p>
+        <p>
+            <input type="radio" id="male" name="xb" checked="checked" value="male" />
+            <label for="male">男人</label>
+            <input type="radio" id="female" name="xb" value="female" />
+            <label for="female">女人</label>
+        </p>
+        <p>你喜欢的编程：
+            <input type="checkbox" id="js" value="js" name="xhdbc" />
+            <label for="js">js</label>
+            <input type="checkbox" id="php" value="php" name="xhdbc" />
+            <label for="php">php</label>
+            <input type="checkbox" id="python" value="python" name="xhdbc" />
+            <label for="python">python</label>
+        </p>
+
+        <p>
+            <select name="lang">
+                <option value="">请选择</option>
+                <option value="js">js</option>
+                <option value="php">php</option>
+                <option value="python">python</option>
+            </select>
+        </p>
+
+        <p>
+            <textarea cols="30" rows="20" name="duohang" placeholder="请输入文本"></textarea>
+        </p>
+
+        <fieldset>
+            <legend>用户登录</legend>
+            <p>
+                <label for="name2">用户名2</label>
+                <input type="text" name="name2" id="name2" value="" />
+            </p>
+            <p>
+                <label for="password2">密码2</label>
+                <input type="password" name="password2" id="password2" value="" />
+            </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="提交" />
+        </p>
+    </form>
+
+
+    <div>
+        内联元素:
+        span/strong/em/del/ins/label/a/sub/sup
+    </div>
+
+    <div>
+        块级元素:
+        div/hx/p/address/ul/ol/li/dl/dt/dd/table/form/fieldset/legend
+    </div>
+
+    <div>
+        内联块级元素：
+        input/img/select/textarea/iframe
+    </div>
+
+    <p>更多参考w3c网站</p>
+    <iframe width="50%" height="600px" src="https://www.w3school.com.cn/tags/html_ref_byfunc.asp"></iframe>
+
+
+</body>
+
+
+</html>
