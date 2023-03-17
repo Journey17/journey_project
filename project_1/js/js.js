@@ -56,3 +56,6 @@ document.getElementById('andx').innerHTML = andx(4,5);
 
 // ------------------------------------------------------
 
+var y = "5",x = 5,z = 11;
+var w = y > z ? "hello" : "hell"
+console.log(w);
