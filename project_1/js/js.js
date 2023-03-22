@@ -86,7 +86,9 @@ function getDate(){
       minutes +
       " 分 " +
       seconds +
-      " 秒 ";
+      " 秒 "; 
+    setTimeout("getDate()", 1000); //  1秒刷新一次
+    
 }
 
 // 引用02 http://caibaojian.com/javascript/12.html
