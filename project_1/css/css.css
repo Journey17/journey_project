@@ -1,0 +1,16 @@
+/* button类 */
+.btn {
+    color: #fff;
+    border: none;
+    height: 34px;
+    font-size: 14px;
+}
+.btn.btn-success {
+    background-color: #5cb85c;
+}
+.btn.btn-warning {
+    background-color: #f0ad4e;
+}
+.btn.btn-danger {
+    background-color: #d9534f;
+}
