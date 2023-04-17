@@ -1,2 +1,2 @@
 # journey_project
-# javascript and vue project
+# javascript and vue web project
