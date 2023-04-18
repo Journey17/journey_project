@@ -5,12 +5,84 @@
     height: 34px;
     font-size: 14px;
 }
+
 .btn.btn-success {
     background-color: #5cb85c;
 }
+
 .btn.btn-warning {
     background-color: #f0ad4e;
 }
+
 .btn.btn-danger {
     background-color: #d9534f;
+}
+
+.j-d {
+    width: 150px;
+    height: 150px;
+    background-color: bisque;
+    margin-top: 10px;
+    display: table;
+}
+
+.j-d span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* 标签初始化 */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+div {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+textarea,
+button {
+    outline: none;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lr {
+    height: 400px;
+    position: relative;
+    overflow-y: hidden;
+}
+.left {
+    background-color: #5cb85c;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+.right {
+    background-color: #d9534f;
+    height: 100%;
+    margin-left: 300px;
 }
