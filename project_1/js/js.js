@@ -92,4 +92,3 @@ function getDate(){
 }
 
 // 引用02 http://caibaojian.com/javascript/12.html
-
