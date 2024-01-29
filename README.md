@@ -1,2 +1,2 @@
 # journey_project
-# javascript and vue web project
+# javascript 和 vue web project 学习记录
